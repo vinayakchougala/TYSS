@@ -41,7 +41,7 @@ public class CreatenomineeandverifyTest extends Baseclass {
 	@Test (groups= {"SmokeTest"})
 	public void addnominee() throws Throwable
 	{
-
+          // welcome
 		String TEST_SCRIPT_EXCEL_FILE_PATH = fLib.getFilePathFromPropertiesFile("testScriptdatafilePath");
 		String Exp_msg = "New Nominee ADDED";		
 
@@ -99,6 +99,6 @@ public class CreatenomineeandverifyTest extends Baseclass {
 		}
 		assertTrue(l1.contains(Exp_Nomineeid),Exp_Nomineeid+" "+"Nominee id is not Verify & is not displayed in nominee table----->Fail");
 		Reporter.log(Exp_Nomineeid+"  "+"Nominee id is Verified & is  Displayed in nominee table----->Pass",true);
-		
+		// completyed
 	}
 }
