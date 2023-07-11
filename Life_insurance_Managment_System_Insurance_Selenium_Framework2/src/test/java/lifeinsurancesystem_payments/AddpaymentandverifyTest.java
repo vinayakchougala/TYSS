@@ -30,6 +30,7 @@ public class AddpaymentandverifyTest extends Baseclass
 	@Test(groups= {"SmokeTest"})
 	public void addpayment() throws Throwable 
 	{
+		// welcome 
 
 		String TEST_SCRIPT_EXCEL_FILE_PATH = fLib.getFilePathFromPropertiesFile("testScriptdatafilePath");
 
