@@ -83,6 +83,7 @@ public class AddpaymentandverifyTest extends Baseclass
 			
 			Assert.assertTrue(l1.contains(Act_Receiptno),Act_Receiptno+"  "+"payment Receipt number is not Veifyied &  is not Present---->Fail");
 			Reporter.log(Act_Receiptno+"  "+"payment Receipt number Veifyied &  is Present---->Pass",true);
+		// Test script executed Successfully.
 	}
 }
 	
