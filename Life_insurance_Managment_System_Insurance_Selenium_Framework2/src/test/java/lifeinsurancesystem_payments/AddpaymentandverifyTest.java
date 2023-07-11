@@ -27,6 +27,7 @@ import Newa_generic_utility.WebActionUtility;
 
 public class AddpaymentandverifyTest extends Baseclass 
 {
+	////i am chutiya
 	@Test(groups= {"SmokeTest"})
 	public void addpayment() throws Throwable 
 	{
