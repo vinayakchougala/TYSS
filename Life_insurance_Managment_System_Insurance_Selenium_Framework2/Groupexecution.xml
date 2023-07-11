@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="SmokeTest"></include>
+			<include name="RegreTest"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="lifeinsurancesystem_payments.AddpaymentandverifyTest"/>
+      <class name="lifeinsurancesystem_payments.LogintoappaddpaymentlogoutTest"/>
+      <class name="lifeinsurancesystem_payments.EditpaymentTest"/>
+      <class name="lifeinsurancesystem_payments.CreatenomineeandverifyTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

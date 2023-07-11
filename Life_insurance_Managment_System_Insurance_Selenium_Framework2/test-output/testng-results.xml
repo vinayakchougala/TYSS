@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[New Payment ADDED  Payment added sucessfully Verified---->Pass]]>
+    </line>
+    <line>
+      <![CDATA[1689050747_908229114  payment Receipt number Veifyied &  is Present---->Pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-11T10:16:06 IST" name="Default suite" finished-at="2023-07-11T10:16:21 IST" duration-ms="15120">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="AddpaymentandverifyTest.addpayment()[pri:0, instance:lifeinsurancesystem_payments.AddpaymentandverifyTest@55634720]" name="addpayment" class="lifeinsurancesystem_payments.AddpaymentandverifyTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2023-07-11T10:16:06 IST" name="Default test" finished-at="2023-07-11T10:16:21 IST" duration-ms="15120">
+      <class name="lifeinsurancesystem_payments.AddpaymentandverifyTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:lifeinsurancesystem_payments.AddpaymentandverifyTest@55634720]" started-at="2023-07-11T10:16:05 IST" name="connectToDB" finished-at="2023-07-11T10:16:06 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:lifeinsurancesystem_payments.AddpaymentandverifyTest@55634720]" started-at="2023-07-11T10:16:06 IST" name="launchTheBrowser" finished-at="2023-07-11T10:16:08 IST" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:lifeinsurancesystem_payments.AddpaymentandverifyTest@55634720]" started-at="2023-07-11T10:16:08 IST" name="loginToApplication" finished-at="2023-07-11T10:16:09 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addpayment()[pri:0, instance:lifeinsurancesystem_payments.AddpaymentandverifyTest@55634720]" started-at="2023-07-11T10:16:09 IST" name="addpayment" finished-at="2023-07-11T10:16:20 IST" duration-ms="10664" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[New Payment ADDED  Payment added sucessfully Verified---->Pass]]>
+            </line>
+            <line>
+              <![CDATA[1689050747_908229114  payment Receipt number Veifyied &  is Present---->Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addpayment -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:lifeinsurancesystem_payments.AddpaymentandverifyTest@55634720]" started-at="2023-07-11T10:16:20 IST" name="logoutFromApplication" finished-at="2023-07-11T10:16:20 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:lifeinsurancesystem_payments.AddpaymentandverifyTest@55634720]" started-at="2023-07-11T10:16:20 IST" name="closeTheBrowser" finished-at="2023-07-11T10:16:21 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDatabase()[pri:0, instance:lifeinsurancesystem_payments.AddpaymentandverifyTest@55634720]" started-at="2023-07-11T10:16:21 IST" name="closeDatabase" finished-at="2023-07-11T10:16:21 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDatabase -->
+      </class> <!-- lifeinsurancesystem_payments.AddpaymentandverifyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
